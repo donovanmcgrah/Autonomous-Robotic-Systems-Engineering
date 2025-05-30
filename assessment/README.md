@@ -1,14 +1,7 @@
-AURO Assessment ROS2 Package
+AURO ROS2 Package
 ----------------------------
-This package contains the simulation configuration for the AURO assessment. There
-is one simulation environment ROS node, `item_manager`, and three ROS nodes per
+There is one simulation environment ROS node, `item_manager`, and three ROS nodes per
 robot `item_sensor`, `robot_sensor` and `zone_sensor`.
-Note that for the assessment you are **not allowed** to change their implementation.
-
-# Task
-Your implementation task, as described in the assessment paper, is to design and 
-implement, an autonomous robotic system using TurtleBot3 Waffle Pi robots, running in 
-simulation, that collect items in the arena and deposit them in appropriate zones. 
 
 ## Items and zones
 There are three types of **items**, identified by distinct colours: red, green, and blue. Similarly,
