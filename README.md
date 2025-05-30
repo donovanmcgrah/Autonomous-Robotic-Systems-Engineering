@@ -6,10 +6,7 @@ robot `item_sensor`, `robot_sensor` and `zone_sensor`.
 ## Items and zones
 There are three types of **items**, identified by distinct colours: red, green, and blue. Similarly,
 there are, by default, four **zones**, where items can be deposited,  located in the four corners of the arena
-and identified by distinct colours: cyan, purple, green, and pink. A screenshot of a simulation 
-launched using the default parameters is reproduced below:
-
-![Screenshot of simulation environment running in Gazebo](img/assessment_world_launch_sample.jpg)
+and identified by distinct colours: cyan, purple, green, and pink.
 
 ### Picking-up and offloading an item
 Items can be picked up when close by using the ROS service `/pick_up_item`. Similarly, when a robot
